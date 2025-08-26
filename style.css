@@ -1,0 +1,21 @@
+/* same style as before */ 
+body { font-family:'Cairo',sans-serif; background-color:#f0f2f5; color:#333; }
+.page{ min-height:100vh; }
+.sidebar{ width:260px; background:linear-gradient(180deg,#0D1B3E 0%,#1A237E 100%); color:white; display:flex; flex-direction:column; }
+.sidebar-header{ padding:1rem; text-align:center; border-bottom:1px solid rgba(212,175,55,0.2); }
+.sidebar-header .logo{ width:80px; height:80px; border-radius:50%; object-fit:contain; padding:5px; background-color:white; margin-bottom:10px; }
+.sidebar-header .title{ font-size:1rem; font-weight:700; color:#fff; }
+.nav-scrollable{ flex-grow:1; overflow-y:auto; }
+.nav-menu-item a{ color:#d7d7d7!important; display:flex; align-items:center; line-height:3rem; padding:0 1.5rem; text-decoration:none; transition:all .3s ease; font-size:.95rem; font-weight:600; }
+.nav-menu-item a i{ margin-left:15px; font-size:1.1rem; color:#D4AF37; }
+.nav-menu-item a:hover{ background-color:rgba(255,255,255,0.05); color:white!important; border-right:4px solid #D4AF37; padding-right:calc(1.5rem - 4px); }
+.nav-menu-item a.active{ background-color:rgba(212,175,55,0.15); color:white!important; font-weight:700; border-right:4px solid #D4AF37; padding-right:calc(1.5rem - 4px); }
+.top-bar{ background:#fff; padding:.75rem 1.5rem; box-shadow:0 2px 4px rgba(0,0,0,0.05); }
+.user-info span{ font-weight:600; color:#0D1B3E; }
+.user-info .btn-logout{ color:#C0392B; text-decoration:none; font-weight:700; margin-right:15px; }
+.content h2{ font-weight:900; color:#0D1B3E; }
+.footer{ text-align:center; padding:1rem; background-color:#fff; border-top:1px solid #e9ecef; font-size:.9rem; color:#888; font-weight:600; }
+.table thead th{ background:#0D1B3E; color:#fff; }
+.btn-gold { background:#0D1B3E; color:#fff; border:none; }
+.btn-gold:hover { background:#000; color:#fff; }
+.badge-rtl{ font-weight:700; }
